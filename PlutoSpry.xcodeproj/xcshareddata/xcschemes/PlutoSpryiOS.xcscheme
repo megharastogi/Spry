@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "040013E22176B41500726CC7"
-               BuildableName = "PlutoSpry.app"
-               BlueprintName = "PlutoSpry"
+               BlueprintIdentifier = "0400141E2177E0A900726CC7"
+               BuildableName = "PlutoSpryiOS.framework"
+               BlueprintName = "PlutoSpryiOS"
                ReferencedContainer = "container:PlutoSpry.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -52,9 +52,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "040013E22176B41500726CC7"
-            BuildableName = "PlutoSpry.app"
-            BlueprintName = "PlutoSpry"
+            BlueprintIdentifier = "0400141E2177E0A900726CC7"
+            BuildableName = "PlutoSpryiOS.framework"
+            BlueprintName = "PlutoSpryiOS"
             ReferencedContainer = "container:PlutoSpry.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,16 +71,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "040013E22176B41500726CC7"
-            BuildableName = "PlutoSpry.app"
-            BlueprintName = "PlutoSpry"
+            BlueprintIdentifier = "0400141E2177E0A900726CC7"
+            BuildableName = "PlutoSpryiOS.framework"
+            BlueprintName = "PlutoSpryiOS"
             ReferencedContainer = "container:PlutoSpry.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +89,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "040013E22176B41500726CC7"
-            BuildableName = "PlutoSpry.app"
-            BlueprintName = "PlutoSpry"
+            BlueprintIdentifier = "0400141E2177E0A900726CC7"
+            BuildableName = "PlutoSpryiOS.framework"
+            BlueprintName = "PlutoSpryiOS"
             ReferencedContainer = "container:PlutoSpry.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
