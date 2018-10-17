@@ -28,6 +28,11 @@
 		040014312177E0AA00726CC7 /* PlutoSpryiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 040014212177E0A900726CC7 /* PlutoSpryiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		040014342177E0AA00726CC7 /* PlutoSpryiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0400141F2177E0A900726CC7 /* PlutoSpryiOS.framework */; };
 		040014352177E0AA00726CC7 /* PlutoSpryiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0400141F2177E0A900726CC7 /* PlutoSpryiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0447EDD62177E6D800608FBD /* SourceNimble in Sources */ = {isa = PBXBuildFile; fileRef = 040014082176B42F00726CC7 /* SourceNimble */; };
+		0447EDD72177E6D800608FBD /* Source in Sources */ = {isa = PBXBuildFile; fileRef = 040014062176B42700726CC7 /* Source */; };
+		0447EDD82177E6EB00608FBD /* HaveReceivedMatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400140C2176B48600726CC7 /* HaveReceivedMatcherSpec.swift */; };
+		0447EDD92177E6EB00608FBD /* HaveRecordedCallsMatcherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400140D2176B48600726CC7 /* HaveRecordedCallsMatcherSpec.swift */; };
+		0447EDDA2177E6EB00608FBD /* Helpers in Sources */ = {isa = PBXBuildFile; fileRef = 0400140A2176B46200726CC7 /* Helpers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -411,6 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0447EDD82177E6EB00608FBD /* HaveReceivedMatcherSpec.swift in Sources */,
+				0447EDD92177E6EB00608FBD /* HaveRecordedCallsMatcherSpec.swift in Sources */,
+				0447EDDA2177E6EB00608FBD /* Helpers in Sources */,
+				0447EDD62177E6D800608FBD /* SourceNimble in Sources */,
+				0447EDD72177E6D800608FBD /* Source in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +596,7 @@
 		040014012176B41700726CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5JS9QMT5F;
@@ -604,6 +615,7 @@
 		040014022176B41700726CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V5JS9QMT5F;
