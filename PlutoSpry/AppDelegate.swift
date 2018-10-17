@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  SpryExample
+//  PlutoSpry
 //
-//  Created by Brian Radebaugh on 6/25/17.
-//  Copyright © 2017 Brian Radebaugh. All rights reserved.
+//  Created by MEGHA GULATI on 10/16/18.
+//  Copyright © 2018 Pluto VR. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
